@@ -75,7 +75,7 @@
   position: absolute;
   z-index: 1;
   transition: all 0.2s ease-in;
-  cursor: url("../images/paper.svg"), auto;
+  cursor: pointer;
 }
 
 .game__options .option::before {
@@ -157,7 +157,7 @@
   border: 2px solid #8991a8;
   border-radius: 8px;
   transition: all 0.2s ease-in;
-  cursor: url("../images/cursor.svg"), auto;
+  cursor: pointer;
 }
 
 .game .rules:hover {
@@ -287,7 +287,7 @@
   border-radius: 7px;
   border: 0;
   transition: all 0.2s ease-in;
-  cursor: url("../images/cursor.svg"), auto;
+  cursor: pointer;
 }
 
 .results .result .play-again:hover {
